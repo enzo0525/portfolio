@@ -1,0 +1,40 @@
+import { Project } from "@/types";
+
+export const projects: Project[] = [
+  {
+    id: "1",
+    title: "DiscussionAI",
+    description: "A SaaS application that allows students to generate discussion posts for their assignments (AI undetectable)",
+    technologies: ["Next.js", "Tailwind CSS", "Supabase", "Stripe", "OpenAI", "OAuth"],
+    image: "/images/projects/discussionAI.png",
+    imageAlt: "DiscussionAI screenshot",
+    liveUrl: "https://discussion-ai.com",
+    featured: true,
+    category: "web",
+    year: 2025,
+  },
+  {
+    id: "2",
+    title: "PantherDen (Hackathon Project)",
+    description: "A platform for students to search and list subleases in the University of FIU",
+    technologies: ["React", "ExpressJS", "Python", "Supabase", "Prisma", "OAuth", "LLaMa AI"],
+    image: "/images/projects/PantherDen.png",
+    imageAlt: "PantherDen screenshot",
+    githubUrl: "https://github.com/sebas1922/Panther-Den",
+    featured: true,
+    category: "web",
+    year: 2025,
+  },
+  {
+    id: "3",
+    title: "Jarvis (PAI - In Progress)",
+    description: "A personal AI assistant with a focus on productivity and personalization",
+    technologies: ["Python", "OpenAI", "Raspberry PI", "Embedded Systems"],
+    image: "/images/projects/project3.jpg",
+    imageAlt: "Jarvis screenshot",
+    githubUrl: "https://github.com/enzo0525/jarvis-personal-ai",
+    featured: false,
+    category: "web",
+    year: 2025,
+  },
+];
