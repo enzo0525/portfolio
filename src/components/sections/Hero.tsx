@@ -3,6 +3,7 @@
 import { Container } from "@/components/ui/Container";
 import { StatusBadge } from "@/components/ui/StatusBadge";
 import { SocialLinks } from "@/components/ui/SocialLinks";
+import { SpotlightBackground } from "@/components/ui/SpotlightBackground";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { TypingText } from "@/components/animations/TypingText";
 import { personal, stats } from "@/data/personal";
@@ -12,7 +13,15 @@ import Link from "next/link";
 export function Hero() {
   return (
     <section className="min-h-screen flex items-center relative py-20">
-      <div className="absolute inset-0 grid-bg opacity-50" />
+      <SpotlightBackground
+        spotlightSize={550}
+        accentColor="accent-blue"
+        opacity={0.15}
+        enableSmoothing={true}
+        smoothingFactor={0.15}
+      >
+        <div className="absolute inset-0 grid-bg opacity-50" />
+      </SpotlightBackground>
 
       <Container className="relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
