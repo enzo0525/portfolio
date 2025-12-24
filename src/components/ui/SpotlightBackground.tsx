@@ -50,7 +50,7 @@ export function SpotlightBackground({
   smoothingFactor = 0.15,
   disableOnMobile = true,
   className,
-}: SpotlightBackgroundProps): JSX.Element {
+}: SpotlightBackgroundProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number | null>(null);
   const targetPosition = useRef({ x: 0, y: 0 });
