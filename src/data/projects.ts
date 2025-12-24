@@ -30,7 +30,7 @@ export const projects: Project[] = [
     title: "Jarvis (PAI - In Progress)",
     description: "A personal AI assistant with a focus on productivity and personalization",
     technologies: ["Python", "OpenAI", "Raspberry PI", "Embedded Systems"],
-    image: "/images/projects/project3.jpg",
+    image: "/images/jarvis.png",
     imageAlt: "Jarvis screenshot",
     githubUrl: "https://github.com/enzo0525/jarvis-personal-ai",
     featured: false,
