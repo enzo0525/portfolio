@@ -2,26 +2,19 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
-    title: "DiscussionAI",
+    title: "BookmarkSOS",
     description:
-      "a saas app that generates ai-undetectable discussion posts for students",
-    tech: "next.js, tailwind, supabase, stripe, openai",
-    url: "https://discussion-ai.com",
+      "the bookmark manager x never built — save, tag, and search tweets instantly",
+    tech: "chrome extension, next.js, tailwind",
+    url: "https://bookmarksos.com",
     year: 2025,
   },
   {
-    title: "PantherDen",
+    title: "LarpMaxxing",
     description:
-      "a platform for students to search and list subleases at fiu",
-    tech: "react, express, python, supabase, prisma, llama ai",
-    url: "https://github.com/sebas1922/Panther-Den",
-    year: 2025,
-  },
-  {
-    title: "Jarvis",
-    description: "personal ai assistant — in progress",
-    tech: "python, openai, raspberry pi",
-    url: "https://github.com/enzo0525/jarvis-personal-ai",
+      "ai photo studio — upload your face, describe a scene, get photorealistic images",
+    tech: "ios, swift, ai image generation",
+    url: "https://apps.apple.com/ge/app/larpmaxxing-ai-dream-photos/id6760981917",
     year: 2025,
   },
 ];
