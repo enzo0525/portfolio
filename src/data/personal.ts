@@ -1,6 +1,6 @@
 export const personal = {
   name: "enzo varela",
-  title: "Software Engineer",
+  title: "software engineer",
   email: "loqqty0525@gmail.com",
   social: {
     github: "https://github.com/enzo0525",
